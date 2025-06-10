@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>Accenture Registration</title>
+<link rel="icon" href="Accenture-Emblem.png">
+<style>
+.top{
+width:1480px;
+height:150px;
+background-color:blue;
+color:white;
+
+}
+img{
+margin:10px 10px;
+}
+#re{
+background-color:rgb(255,255,0,0.6);
+border-radius:5px;
+font-weight:bold;
+font-size:15px;
+}
+#su{
+background-color:rgb(0,0,255,0.6);
+color:white;
+border-radius:5px;
+font-weight:bold;
+font-size:15px;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="top">
+<img src="logo-infosys.png" width=100px height=50px>
+<h1 style="margin:10px">Application Form </h1>
+</div>
+<div>
+
+<form action ="jobAppFormEdu.html">
+<table cellspacing=10px>
+<tr>
+<td><b>UploadResume:</b></td><td><input type="file" accept="application/pdf,application/docx"></td>
+</tr>
+<tr>
+<td><b>Firstname:</b></td><td><input type="text" placeholder="enter first name" required></td>
+</tr>
+<tr>
+<td><b>Lastname:</b></td><td><input type="text" placeholder="enter lastname"required></td>
+</tr>
+<tr>
+<td><b>Email:</b></td><td><input type="email" placeholder="enter email"></td>
+</tr>
+<tr>
+<td><b>DOB:</b></td><td><input type="date" ></td>
+</tr>
+<tr>
+<td><b>Gender:</b></td><td><input type="radio" name="gender">Male</td>
+</tr>
+<tr>
+<td></td><td><input type="radio" name="gender">Female</td>
+</tr>
+<tr>
+<td><b>Skills:</b></td> <td><input type="checkbox" name="skills">C</td>
+</tr>
+<tr>
+<td></td><td><input type="checkbox" name="skills">Java</td>
+
+</tr>
+<tr>
+<td></td><td><input type="checkbox" name="skills">HTML/CSS</td>
+</tr>
+<tr>
+<td><b>Branch:</b></td><td><select> <option>Mech</option> <option>IT</option> <option>CSE</option></select></td>
+</tr>
+<tr>
+<td><b>Mobile.no:</b></td><td> <input type="text" size="1" value="+91" readonly><input type="tel" placeholder="enter Mobile number" pattern="[0-9]{10}"></td>
+</tr>
+<tr>
+<td><b>Address:</b></td> <td><textarea rows =5 col=5 style="resize:none"></textarea></td>
+</tr>
+<tr>
+<td><input id="re" type="reset" name="reset" value="Reset" ></td><td></td><td><input id="su" type="submit" name="submit" value="Next" ></td>
+</tr>
+</table>
+
+
+
+</form>
+
+
+</div>
+</body>
+</html>
